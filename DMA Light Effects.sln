@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMA Light Effects", "DMA Light Effects\DMA Light Effects.csproj", "{5EAB5452-0D96-42FE-9812-D1E81AB594AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EAB5452-0D96-42FE-9812-D1E81AB594AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAB5452-0D96-42FE-9812-D1E81AB594AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAB5452-0D96-42FE-9812-D1E81AB594AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAB5452-0D96-42FE-9812-D1E81AB594AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FB678BB-5754-4371-8FFC-75ECB83FF936}
+		BuildVersion_BuildVersioningStyle = None.None.DeltaBaseDate.Increment
+		BuildVersion_UpdateAssemblyVersion = False
+		BuildVersion_UpdateFileVersion = False
+		BuildVersion_StartDate = 2023/3/1
+	EndGlobalSection
+EndGlobal
