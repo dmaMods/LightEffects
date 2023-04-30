@@ -113,6 +113,12 @@ namespace dmaLightEffects
             truck = PrefabCollection<VehicleInfo>.FindLoaded("2495137137.DAF XF Waste Truck_Data"); if (truck != null) AddBeacon(truck, Trucks.DAFXF);
 
             truck = PrefabCollection<VehicleInfo>.FindLoaded("Waste Transfer Truck"); if (truck != null) AddBeacon(truck, Trucks.WasteTruck);
+            
+            truck = PrefabCollection<VehicleInfo>.FindLoaded("2864978101.Park Ranger - VW Amarok_Data"); if (truck != null) AddBeacon(truck, Trucks.ParkRanger);
+            
+            truck = PrefabCollection<VehicleInfo>.FindLoaded("2864978101.Park Ranger - Toyota Hilux Tray_Data"); if (truck != null) AddBeacon(truck, Trucks.ParkRanger);
+            
+            truck = PrefabCollection<VehicleInfo>.FindLoaded("2864978101.Park Ranger - Toyota Hilux Roof_Data"); if (truck != null) AddBeacon(truck, Trucks.ParkRanger);
         }
 
         private static void AddBeacon(VehicleInfo truck, Trucks version)
@@ -234,6 +240,14 @@ namespace dmaLightEffects
                     truck.m_lightPositions[4] = new Vector3(X2, Y, Z);
                     truck.m_lightPositions[5] = new Vector3(X2, Y, Z);
                     break;
+                case Trucks.ParkRanger:// park ranger (VW & Toyota)
+                    X1 = 0.25f; X2 = 0.35f; Y = -0.1f; Z = -0.28f;
+                    EffectsUtil.AddEffect(truck, AmberFlash1, Vehicle.Flags.Created);
+                    truck.m_lightPositions[2] = new Vector3(-X1, Y, Z);
+                    truck.m_lightPositions[3] = new Vector3(X1, Y, Z);
+                    truck.m_lightPositions[4] = new Vector3(X2, Y, Z);
+                    truck.m_lightPositions[5] = new Vector3(-X2, Y, Z);
+                    break;
             }
         }
 
@@ -262,7 +276,8 @@ namespace dmaLightEffects
             Mercedes = 6,
             DAF75 = 7,
             DAFXF = 8,
-            WasteTruck = 9
+            WasteTruck = 9,
+            ParkRanger = 11
         }
 
     }
