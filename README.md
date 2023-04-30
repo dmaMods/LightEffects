@@ -23,6 +23,8 @@ Supported vehicles:
 -> https://steamcommunity.com/workshop/filedetails/?id=2480788643
 - DAF 75 CF garbage truck
 -> https://steamcommunity.com/workshop/filedetails/?id=534285441
+- Park Ranger Pack [Parklife - Park Maintenance Vehicles]
+-> https://steamcommunity.com/workshop/filedetails/?id=2864978101
 
 
 Note 1: If you want to make changes to the above vehicles in the Assets Editor, temporarily disable this mod because the beacon lights are not visible in the Assets Editor.
